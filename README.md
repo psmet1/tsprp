@@ -18,6 +18,8 @@ A tool to validate solution files that follow the [proposed solution file format
 java -jar validator.jar <path to input file> <path to solution file>
 ```
 
+If the solution is feasible, the objective function value will be printed out. Otherwise the value -1 will be printed out.
+
 ## Lower bounds ##
 
 The following table shows for each problem instance the best known lower bound.
